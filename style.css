@@ -38,9 +38,10 @@ ul {
 
 li {
   display: inline-block;
+  padding: 1px;
 }
 
-li.b {
+/* li.b {
   margin-top: 18px;
 
   margin-left: 3px;
@@ -86,12 +87,18 @@ li.d {
   font-size: 13px;
 
   font-weight: bold;
+} */
+.box1 {
+  line-height: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-weight: bold;
+   */
+  font-size: 14px;
 }
-
 .introduction {
   background-color: white;
 
-  width: 35%;
+  width: 50%;
 
   border: 1px solid lightgray;
 
@@ -104,14 +111,6 @@ li.d {
   margin-left: 37px;
 
   font-family: Myfont5;
-}
-
-li.image1 {
-  float: right;
-
-  margin-right: 20px;
-
-  /* margin-top: 5px; */
 }
 
 .header {
@@ -169,7 +168,8 @@ label {
 .topnav {
   /* overflow: overlay; */
 
-  height: 35px;
+  height: 28px;
+  /* display: flex; */
 
   padding-right: 0px;
 
@@ -182,10 +182,10 @@ label {
   font-weight: bolder;
 }
 
-.topnav a {
+/* .topnav a {
   display: inline-block;
 
-  /* font-weight: 13px; */
+  font-weight: 13px;
 
   font-size: 12px;
 
@@ -197,18 +197,18 @@ label {
 
   text-align: center;
 
-  /* padding: 14px 27px; */
+  padding: 14px 27px;
 
   text-decoration: none;
 
   font-family: sans-serif;
-}
+} */
 
-ul a {
+/* ul a {
   background-color: black;
 
-  /* line-height: 24px; */
-}
+  line-height: 24px;
+} */
 
 .Wel {
   /* font-size: 1em; */
@@ -227,6 +227,7 @@ ul a {
 }
 
 .maincontent {
+  text-transform: capitalize;
   margin-top: 20px;
 
   margin-left: 42px;
@@ -245,8 +246,17 @@ ul a {
 
   margin-right: 6px;
 }
+.nav {
+  margin-left: 15px;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  display: inline-flex;
+  gap: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-li.home {
+/* li.home {
   padding-left: 22px;
 
   padding-right: 0px;
@@ -292,4 +302,10 @@ li.contact {
   vertical-align: sub;
 
   font-family: Myfont6;
+} */
+.image {
+  float: right;
+  justify-content: end;
+  margin-right: 20px;
+  margin-top: 2px;
 }
