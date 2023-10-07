@@ -42,9 +42,9 @@ li {
 }
 .box1 {
   line-height: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 14px;
 }
 .introduction {
@@ -109,9 +109,7 @@ label {
   font-family: sans-serif;
 }
 
-
 .topnav {
-
   height: 28px;
   padding-right: 0px;
 
@@ -119,9 +117,7 @@ label {
   font-weight: bolder;
 }
 
-
 .Wel {
-
   font-weight: 700;
 
   font-size: 18px;
@@ -162,6 +158,12 @@ label {
   gap: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .image {
   float: right;
   justify-content: end;
