@@ -40,59 +40,9 @@ li {
   display: inline-block;
   padding: 1px;
 }
-
-/* li.b {
-  margin-top: 18px;
-
-  margin-left: 3px;
-
-  font-family: Myfont6;
-
-  font-size: 13px;
-
-  font-weight: bold;
-}
-
-li.a {
-  margin-left: 3px;
-
-  font-family: Myfont6;
-
-  font-size: 13px;
-
-  font-weight: bold;
-}
-
-li.c {
-  margin-top: 18px;
-
-  margin-left: 3px;
-
-  font-family: Myfont6;
-
-  font-size: 13px;
-
-  font-weight: bold;
-}
-
-li.d {
-  margin-top: 18px;
-
-  margin-left: 3px;
-
-  margin-bottom: 8px;
-
-  font-family: Myfont6;
-
-  font-size: 13px;
-
-  font-weight: bold;
-} */
 .box1 {
   line-height: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* font-weight: bold;
-   */
   font-size: 14px;
 }
 .introduction {
@@ -157,61 +107,18 @@ label {
   font-family: sans-serif;
 }
 
-/* header p {
-
-  margin-top: 10px;
-
-  margin-left: 11px;
-
-} */
 
 .topnav {
-  /* overflow: overlay; */
 
   height: 28px;
-  /* display: flex; */
-
   padding-right: 0px;
 
   background-color: #333;
-
-  /* padding-left: 27px; */
-
-  /* font-weight: bold; */
-
   font-weight: bolder;
 }
 
-/* .topnav a {
-  display: inline-block;
-
-  font-weight: 13px;
-
-  font-size: 12px;
-
-  margin-top: 7px;
-
-  color: #f2f2f2;
-
-  font-weight: bolder;
-
-  text-align: center;
-
-  padding: 14px 27px;
-
-  text-decoration: none;
-
-  font-family: sans-serif;
-} */
-
-/* ul a {
-  background-color: black;
-
-  line-height: 24px;
-} */
 
 .Wel {
-  /* font-size: 1em; */
 
   font-weight: 700;
 
@@ -220,8 +127,6 @@ label {
   line-height: 17px;
 
   font-family: Myfont6;
-
-  /* font-family: sans-serif; */
 
   margin-left: 5px;
 }
@@ -255,54 +160,6 @@ label {
   gap: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* li.home {
-  padding-left: 22px;
-
-  padding-right: 0px;
-
-  color: white;
-
-  vertical-align: sub;
-
-  font-family: Myfont6;
-}
-
-li.services {
-  padding-left: 19px;
-
-  padding-right: 0px;
-
-  color: white;
-
-  vertical-align: sub;
-
-  font-family: Myfont6;
-}
-
-li.careers {
-  padding-left: 19px;
-
-  padding-right: 0px;
-
-  color: white;
-
-  vertical-align: sub;
-
-  font-family: Myfont6;
-}
-
-li.contact {
-  padding-left: 19px;
-
-  padding-right: 0px;
-
-  color: white;
-
-  vertical-align: sub;
-
-  font-family: Myfont6;
-} */
 .image {
   float: right;
   justify-content: end;
